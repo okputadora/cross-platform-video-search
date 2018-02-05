@@ -33,8 +33,9 @@
           </div>
         </div>
         <div class='col-md-6'>
-          <form>
+          <form action='/api/youtube' method='GET'>
             <input type='text' name='title' placeholder='Search...' />
+            <input type='submit' value='Submit' />
           </form>
         </div>
         <div class='col-md-3'>
