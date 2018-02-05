@@ -4,7 +4,7 @@ module.exports = {
   get: function(title){
     console.log('hittin the api')
     var opts = {
-      maxResult: 5,
+      maxResults: 5,
       key:'AIzaSyBG4M2kBGzsSyVfjdC_WkPQGqdp5IhGW3o'
     }
     console.log(opts.key)
